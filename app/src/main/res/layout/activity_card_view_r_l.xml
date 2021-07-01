@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".cardViewRL">
+
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:id="@+id/cardd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textViewWhere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="sample text where"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewHM"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Sample text how much"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textViewHMRUB"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/textViewHM"
+            android:text=" Руб"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/textViewHM" />
+
+        <TextView
+            android:id="@+id/textViewCalendar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:text="sample text date"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
